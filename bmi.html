@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+    <div class="container">
       <div class="jumbotron">
-      <div class="container">
         <h3 align="center">All About BMI and BMI Calculation</h3>
         <h4>What is the body mass index (BMI)?</h4>
         <p>BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. 
@@ -23,6 +23,24 @@
               to see the different categories based on BMI that is used by the calculator</p>
         <h3>NB:</h3> <p>You should not use BMI as a measure if you're pregnant. Get advice from your midwife or GP if you're concerned about your weight.</p>
             <p>Enter your biodata below to calculate BMI</p>
+        </div>
+        <div class="container">
+          <div class="panel">
+            <h2 class="text-center">Check your BMI</h2>
+              <p id="introText" align = "left">Enter your weight and height below to check your BMI results</p>
+              <form>
+                <div id="weightInput">
+                  <p>Put your weight in here (KG)</p>
+                     <input id="weight" type="number" pattern="[0-9]*" name="a" />
+                </div>
+                <div id="heightInput">
+                  <p>And your height in here (CM)</p>
+                   <input id="height" type="number" pattern="[0-9]*" name="b"/>
+                </div>
+                 <button type="button" onclick="calculate()">Calculate BMI</button>
+            </form>
+            <div id="results" align = ""left>Your BMI results will appear here</div>
+          </div>
         </div>
       </div>
     </div>
