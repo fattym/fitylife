@@ -1,9 +1,13 @@
-.container-fluid{
-    height: 100vh;
+.rev{
+    height:100vh;
     width: auto;
     background-image: url("bg1.jpg");
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    padding: 50px;
+    padding-top: 40px;
 }
 .rev_txt{
     color: white;
@@ -17,4 +21,27 @@
 }
 .exc{
     font-family: 'Fugaz One', cursive;
+}
+
+.transparent{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.form-control::-webkit-input-placeholder{
+    color: white;
+    font-weight: bold;
+}
+.api{
+    padding: 10px;
+}
+.btn-secondary{
+    margin: 20px;
+    text-align: center;
+ }
+.feed-back{
+    background-color:blueviolet;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    width: auto;
 }
