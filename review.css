@@ -1,15 +1,18 @@
-/* .home_background{
-    height: auto;
-    width: auto;
-    background-image: url("../fitylife/images/chase-kinney-FMQBLyhD2HU-unsplash\ \(4\).jpg");
-    background-size: cover;
-    background-attachment: fixed;
-} */
 .container-fluid{
     height: 100vh;
     width: auto;
     background-image: url("bg1.jpg");
     background-size: cover;
     background-attachment: fixed;
-
+}
+.rev_txt{
+    color: white;
+    text-align: center;
+    padding-top: 50px; 
+    font-weight: bold; 
+    font-size: xx-large;
+    font-family: 'Special Elite', cursive;
+}
+.exc{
+    font-family: 'Fugaz One', cursive;
 }
