@@ -10,8 +10,10 @@
     text-align: center;
     padding-top: 50px; 
     font-weight: bold; 
-    font-size: xx-large;
-    font-family: 'Special Elite', cursive
+    font-size: x-large;
+}
+.text{
+    font-family: 'Special Elite', cursive;
 }
 .exc{
     font-family: 'Fugaz One', cursive;
