@@ -6,47 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="text/css" type="stylesheet">
     <link href="css/style.css" rel="text/css" type="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/ui/4.4.0/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.4.0/firebase-ui-auth.css" />
     <title>SignUp</title>
 </head>
 <body>
+  <div class="signup_div">
     <form action="action_page.php" style="border:1px solid #ccc">
-        <div class="container">
-        <img src="img/fit.jpg" width="150px">
-          <h1>Sign Up</h1>
-          <p>Please fill in this form to create an account.</p>
-          <br>
-          <label for="name"><b>Name</b></label>
-          <input type="text" placeholder="Enter Name" name="name" required><br>
-          <br>
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required><br>
-           <br>
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required><br>
-           <br>
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
-      
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-          </label>
-      
-          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-      
-          <div class="clearfix">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Sign Up</button>
-          </div>
+      <div class="container">
+      <img src="img/fit.jpg" width="150px">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <br>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+         <br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="password" required><br>
+         <br>
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="repeat_password"  required><br>
+    
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+    
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn" onclick="signup()">Sign Up</button>
         </div>
-      </form> 
+      </div>
+    </form>
+  </div>
+    
+      
+      <div class="logout_div">
+        <p>Welcome To fit4life</p> 
+        <p id="user_email"></p>
+      </div>
       <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.9.3/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.9.3/firebase-analytics.js"></script>
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
-<!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCkvd5AAuboz6-fiDRvd1AyGdpdtMK_dT4",
+          authDomain: "fit4life-27ac1.firebaseapp.com",
+          databaseURL: "https://fit4life-27ac1.firebaseio.com",
+          projectId: "fit4life-27ac1",
+          storageBucket: "fit4life-27ac1.appspot.com",
+          messagingSenderId: "115909281774",
+          appId: "1:115909281774:web:96b282d60a86438a5830ff",
+          measurementId: "G-YXLYKZ072B"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);dd
+        firebase.analytics();
+      </script>
+
+      <script src="./js/java.js"></script>
 </body>
 </html>
