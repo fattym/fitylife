@@ -31,7 +31,7 @@
               <form>
                 <div id="weightInput">
                   <p>Put your weight in here (KG)</p>
-                     <input id="weight" type="number" pattern="[0-9]*" name="a" />
+                     <input id="weight" type="number" required pattern="[0-9]*" name="a" />
                 </div>
                 <div id="heightInput">
                   <p>And your height in here (CM)</p>
@@ -42,9 +42,70 @@
             <div id="results" align = ""left>Your BMI results will appear here</div>
           </div>
         </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">BMI Status</th>
+              <th scope="col">Appropriate Diet</th>
+              <th scope="col">Workouts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Underweight</td>
+              <td>
+                <li> You can increase calories by adding almonds, sunflower seeds, fruit, or whole-grain, wheat toast.</li>
+                <li>Eat food rich in high fibre, higher nutrition, higher protein and moderate fat.</li>
+                <li>Some high protein sources that you need are things like meat, milk, eggs and fish. </li>
+                <li>Healthy high caloric dense snacks like nuts, almonds, yoghurt, milkshakes, dried fruits like dates and ripe bananas in-between meals </li>
+              </td>
+              <td>
+                <li>Pushups</li>
+                <p>Pushups are simple and help build muscle in your arms and shoulders</p>
+                <li>Pullups</li>
+                <p>You’ll need some kind of pullup bar or sturdy cylindrical object to do pullups. 
+                  Otherwise, this exercise is a simple way to build arm and shoulder muscles.</p>
+                <li>Squats</li>
+                <p>This exercise helps build muscle in your butt and legs, especially your quadriceps femoris (quads) muscles.</p>
+                <li>Lunges</li>
+                <p>It’s great for bulking up and toning your leg and butt muscles.</p>
+                <li>Benchpress</li>
+                <p>Bench presses help build shoulder, tricep, and chest muscles. 
+                  This is a good exercise for bulking up. The more weight you can bench, the more muscle you’ll build.</p>
+              </td>      
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Overweight</td>
+              <td>
+                <li>Eat Less Cholesterol and Less Fat – Especially Less Saturated Fat, and Almost No Trans-Fat</li>
+                <li>Aim for at least five servings of fruits and vegetables a day. Usually, the more colorful the fruit or vegetable, the more nutritious. </li>
+                <li>Avoid food that is high in sugar, like pastries, sweetened cereal, and soda or fruit-flavored drinks.</li>
+                <li>Eat More Fruits, Vegetables, Whole Grains, and Low- or No-Fat Dairy Products Every Day.</li>
+              </td>
+              <td>
+                <li>Aerobic Exercise</li>
+                <p>These include waterwalking, water jogging, jumping jacks, side stepping </p>
+                <li>Walking</li>
+                <p>Because of its ease of access, low-impact nature and low risk of injury,
+                   walking is another excellent activity for obese adults.</p>
+                <li>Bend and Lift Progression</li>
+                <p>Bend-and-lift progressions are commonly seen with squats.</p>
+                <li>Biking</li>
+                <p>Riding a bike is another way to feel light and reduce pressure on your joints while you exercise.</p>
+                <li>Dancing</li>
+                <p>Dancing is an easy exercise to do at any weight, because it is fun and doesn't take any particular skil</p>
+                <p>Dancing for at least an hour is guaranteed to burn calories</p>
+            </td>
+            </tr>
+        </tbody>
+        </table>
+
       </div>
     </div>
-    <!-- Optional JavaScript -->
+    <script src="bmi.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
