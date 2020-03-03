@@ -1,5 +1,5 @@
 .rev{
-    height:100vh;
+    height:500px;
     width: auto;
     background-image: url("bg1.jpg");
     background-size: cover;
@@ -7,14 +7,14 @@
     text-align: center;
     color: rgb(3, 3, 3);
     padding: 50px;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 .rev_txt{
     color: white;
     text-align: center;
     padding-top: 50px; 
     font-weight: bold; 
-    font-size: x-large;
+    font-size: xx-large;
 }
 .text{
     font-family: 'Special Elite', cursive;
@@ -39,9 +39,17 @@
     text-align: center;
  }
 .feed-back{
-    background-color:blueviolet;
+   background-image: url("bg2.jpg");
     text-align: center;
     padding: 50px;
     height: auto;
     width: auto;
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    color: white;
 }
+.feed-back-txt{
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+}
+
