@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 firebase.auth().onAuthStateChanged(function(user) {
 if (user) {
     // User is signed in.
@@ -11,31 +13,32 @@ if (user) {
     document.getElementById('user_param').innerHTML = "User " + userEmail
     }
 } else {
-    // No user is signed in.
+    // No user is signed in.  
     document.getElementById("logout_div").style.display = "none";
-    //document.getElementById("login_div").style.display = "block";
+    // // document.getElementById("login_div").style.display = "block";
     document.getElementById("signup_div").style.display = "block"
 }
 });
-
-
-function signup(){
-    var username = document.getElementById('name').value;
-    var useremail = document.getElementById('email').value;
-    var userpassword = document.getElementById('password').value;
-    var userconfpassword = document.getElementById('repeat_password').value;
-  
-    // window.alert(useremail +" "+userpassword+" "+userconfpassword)
-    
-    if(userpassword === userconfpassword) 
+console.log("calls")
+$('button#submit').click(function(){
+console.log('works  ')
+    var userEmail = document.getElementById('usr_email').value;
+    var userPassword = document.getElementById('password1').value;
+    var userConfpassword = document.getElementById('password2').value;
+// alert(userEmail)
+    if(userPassword === userConfpassword) 
     {
-      firebase.auth().createUserWithEmailAndPassword(useremail, userpassword).catch(function(error) {
+    //  alert(userEmail)
+      // userPassword='edgar.kibet@moringaschool.com'
+      // window.alert(userEmail +" "+userPassword+" "+userConfpassword)
+      firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword).catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
         // ...
   
         window.alert('Error: '+ errorMessage)
+        
       });
     
     }else
@@ -43,4 +46,6 @@ function signup(){
       window.alert("Email or password not correct")
     }
   
-  }
+  })
+
+});
