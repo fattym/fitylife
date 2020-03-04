@@ -89,9 +89,15 @@
   }
   .rate-text{
       text-align: center;
+      font-weight: bold;
+      padding-bottom: 30px;
   }
   .rate{
       text-align: center;
+      height: auto;
+      width: auto;
+      font-weight: bold;
+     margin-top: 30px;
   }
 
 .transparent{
@@ -110,7 +116,7 @@
     text-align: center;
  }
 .feed-back{
-   background-image: url("bg2.jpg");
+   background-image: url("bg5.jpg");
     text-align: center;
     padding: 50px;
     height: auto;
@@ -118,6 +124,8 @@
     font-family: 'Special Elite', cursive;
     font-weight: bold;
     color: white;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .feed-back-txt{
     font-family: 'Special Elite', cursive;
