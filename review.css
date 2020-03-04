@@ -1,7 +1,7 @@
 .rev{
     height:500px;
     width: auto;
-    background-image: url("bg1.jpg");
+    background-image: url("bg4.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -98,7 +98,9 @@
       width: auto;
       font-weight: bold;
      margin-top: 30px;
+     font-family: 'Fugaz One', cursive;
   }
+  
 
 .transparent{
     background-color: rgba(0, 0, 0, 0);
