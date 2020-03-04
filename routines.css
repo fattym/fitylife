@@ -1,0 +1,19 @@
+.container{
+    background-image: url("wo.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.jumbotron{
+    color: black;
+}
+body{
+    background-image: url("angelos-michalopoulos-S3Rs0DcvvK0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+video{
+    padding-left: 2px;
+}
