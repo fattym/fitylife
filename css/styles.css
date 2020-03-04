@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Marck Script', cursive;
     background-image: url(../img/fit.jpg);
     text-align: center;
 }
@@ -70,8 +70,8 @@ span.psw {
     }
 }
 
-.bd {
-    background-image: url(../img/fit.jpg);
+body {
+    background-image: url(../img/fit.png);
 }
 
 .signup_div {
