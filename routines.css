@@ -1,0 +1,39 @@
+.container{
+    background-color: #926239;
+    color: black;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+h3{
+    font-family: 'Kaushan Script', cursive;
+}
+li{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 300;
+    font-size: 150%;
+}
+a{
+    color:#926239;
+}
+.centered {
+    font-family: 'Kaushan Script', cursive;
+    font-size: larger;
+	color:yellow;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
