@@ -19,8 +19,8 @@ $(document).ready(function() {
     function login() {
         var userEmail = document.getElementById('email_field').value;
         var userPassword = document.getElementById('password_field').value;
-        if (email_field === usr_email)
-            var user = firebase.auth().currentUser;
+        // if (email_field === usr_email)
+        //     var user = firebase.auth().currentUser;
 
         user.sendEmailVerification().then(function() {
             // Email sent.
