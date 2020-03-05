@@ -3,14 +3,12 @@ $(document).ready(function(){
 $("#tbt1").show("3000");
     $(".img1").hide(slow);    
     });
-}
-);
+});
 $(document).ready(function(){
     $("#tbt1").click(function(){
      $(".img1").hide();
         $("#tbt1").show();
     });
-
 });
 
 $(document).ready(function(){
@@ -25,7 +23,6 @@ $(document).ready(function(){
         $("#text2").hide();
         $("#img2").show();
     });
-
 });
 
 $(document).ready(function(){
@@ -42,7 +39,6 @@ $(document).ready(function(){
     });
 
 });
-
 
 $(document).ready(function(){
     $("#vid1").click(function() {
