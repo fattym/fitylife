@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>fitylife</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="bmi.js"></script>
+</head>
+
+<body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="home.html">BMI</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="rout.html">Routine</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="revi.html">Reviews</a>
+        </li>
+    </ul>
+
+
+
+
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="https://bit.ly/3cwATPU" alt="Second slide">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Eat well</h3>
+                    <p>Food and alot of water</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://bit.ly/2vvJDFq" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+
+
+                    <h3> gym</h3>
+                    <p>No pain no gain</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://bit.ly/2TmXU08" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Live Happy</h3>
+                    <p>Be happy and get sleep</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <span class="arr">
+        <a href="#section-c"><img style="height: 57px; width: 33px;" src="arr.gif" alt=" mouse_click"
+                id="mouse-click"></a>
+    </span>
+    <section class="bmi">
+        <div class="container">
+            <div class="panel">
+                <h2 class="text-center" style="font-family: 'Kaushan Script', cursive; color:white;">Check your BMI</h2>
+                <p id="introText" align="center">Enter your weight and height below to check your BMI results</p>
+                <form id="for" style="border: white solid 1px;">
+                    <div id="weightInput">
+                        <label for="inputName" class="col-sm-1-12 col-form-label">Put your weight in here (KG)</label>
+                        <input id="weight" type="number" required pattern="[0-9]*" name="a" />
+                    </div>
+                    <br><br><br>
+                    <div id="heightInput"> <br><br><br>
+                        <label for="inputName" class="col-sm-1-12 col-form-label">And your height in here (CM)</label>
+                        <input id="height" type="number" pattern="[0-9]*" name="b" />
+                    </div> <br><br><br>
+                    <button type="button" onclick="calculate()">Calculate BMI</button>
+                </form>
+                <div id="results" align="center">Your BMI results will appear here</div>
+            </div>
+        </div>
+    </section>
+
+
+    <table class="table" id="section-c">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">BMI Status</th>
+                <th scope="col">Appropriate Diet</th>
+                <th scope="col">Workouts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Underweight</td>
+                <td>
+
+                    <p id="cool">You can increase calories by adding almonds, sunflower seeds, fruit, or
+                        whole-grain, wheat
+                        toast.</p>
+
+                    <p id="cool">Eat food rich in high fibre, higher nutrition, higher protein and moderate fat.</p>
+                    <p id="cool"></p>Some high protein sources that you need are things like meat, milk, eggs and
+                    fish. </p>
+                    <p id="cool"></p>Healthy high caloric dense snacks like nuts, almonds, yoghurt, milkshakes,
+                    dried fruits like
+                    dates and ripe bananas in-between meals </p>
+                    <button id="checkoutBtn" class="btn btn-outline-success form-control"><a href="rout.html">Proceed to
+                            Workout Guides</a></button>
+                </td>
+                <td>
+                    <li>Pushups</li>
+                    <p>Pushups are simple and help build muscle in your arms and shoulders</p>
+                    <li>Pullups</li>
+                    <p>You’ll need some kind of pullup bar or sturdy cylindrical object to do pullups.
+                        Otherwise, this exercise is a simple way to build arm and shoulder muscles.</p>
+                    <li>Squats</li>
+                    <p>This exercise helps build muscle in your butt and legs, especially your quadriceps femoris
+                        (quads) muscles.</p>
+                    <li>Lunges</li>
+                    <p>It’s great for bulking up and toning your leg and butt muscles.</p>
+                    <li>Benchpress</li>
+                    <p>Bench presses help build shoulder, tricep, and chest muscles.
+                        This is a good exercise for bulking up. The more weight you can bench, the more muscle
+                        you’ll build.</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Overweight</td>
+                <td>
+                    <p id="cool"></p>Eat Less Cholesterol and Less Fat – Especially Less Saturated Fat, and Almost
+                    No Trans-Fat
+                    </li>
+                    <p id="cool"></p>Aim for at least five servings of fruits and vegetables a day. Usually, the
+                    more colorful
+                    the fruit or vegetable, the more nutritious. </p>
+                    <p id="cool">Avoid food that is high in sugar, like pastries, sweetened cereal, and soda or
+                        fruit-flavored drinks.</p>
+                    <p id="cool">Eat More Fruits, Vegetables, Whole Grains, and Low- or No-Fat Dairy Products Every
+                        Day.</p>
+
+                </td>
+                <td>
+                    <li>Aerobic Exercise</li>
+                    <p>These include waterwalking, water jogging, jumping jacks, side stepping </p>
+                    <li>Walking</li>
+                    <p>Because of its ease of access, low-impact nature and low risk of injury,
+                        walking is another excellent activity for overweight adults.</p>
+                    <li>Bend and Lift Progression</li>
+                    <p>Bend-and-lift progressions are commonly seen with squats.</p>
+                    <li>Biking</li>
+                    <p>Riding a bike is another way to feel light and reduce pressure on your joints while you
+                        exercise.</p>
+                    <li>Dancing</li>
+                    <p>Dancing is an easy exercise to do at any weight, because it is fun and doesn't take any
+                        particular skil</p>
+                    <p>Dancing for at least an hour is guaranteed to burn calories</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <p>&copy fitylife</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

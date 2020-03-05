@@ -1,0 +1,40 @@
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+li{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 300;
+    font-size: 150%;
+}
+a{
+    color:#926239;
+}
+.jumbotron{
+    background-color: #926239;
+}
+#cool{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.arr{
+    display:flex;
+    justify-content: center;
+    height: 30px;
+}
+.bmi{
+background-color:#926239;
+}
+#for ,#weightInput,#heightInput{
+    display: flex;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
