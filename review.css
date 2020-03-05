@@ -1,3 +1,37 @@
+
+#mouse-click {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+}
+li{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 300;
+  font-size: 150%;
+}
+a{
+  color:#926239;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
 .rev{
     height:500px;
     width: auto;
@@ -133,4 +167,3 @@
     font-family: 'Special Elite', cursive;
     font-weight: bold;
 }
-
