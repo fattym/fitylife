@@ -1,47 +1,47 @@
-// $(document).ready(function(){
-//     $("#img1").click(function() {
-// $("#text1").show();
-//     $("#img1").hide();    
-//     });
-// }
-// );
-// $(document).ready(function(){
-//     $("#text1").click(function(){
-//         $("#text1").hide();
-//         $("#img1").show()
-//     });
+$(document).ready(function(){
+    $(".img1").click(function(){
+$("#tbt1").show("3000");
+    $(".img1").hide(slow);    
+    });
+}
+);
+$(document).ready(function(){
+    $("#tbt1").click(function(){
+     $(".img1").hide();
+        $("#tbt1").show();
+    });
 
-// });
+});
 
-// $(document).ready(function(){
-//     $("#img2").click(function() {
-// $("#text2").show();
-//     $("#img2").hide();    
-//     });
-// });
+$(document).ready(function(){
+    $("#img2").click(function() {
+$("#text2").show();
+    $("#img2").hide();    
+    });
+});
 
-// $(document).ready(function(){
-//     $("#text2").click(function(){
-//         $("#text2").hide();
-//         $("#img2").show()
-//     });
+$(document).ready(function(){
+    $("#text2").click(function(){
+        $("#text2").hide();
+        $("#img2").show();
+    });
 
-// });
+});
 
-// $(document).ready(function(){
-//     $("#img3").click(function() {
-// $("#text3").show();
-//     $("#img3").hide();    
-//     });
-// });
+$(document).ready(function(){
+    $("#img3").click(function() {
+$("#text3").show();
+    $("#img3").hide();    
+    });
+});
 
-// $(document).ready(function(){
-//     $("#text3").click(function(){
-//         $("#text3").hide();
-//         $("#img3").show()
-//     });
+$(document).ready(function(){
+    $("#text3").click(function(){
+        $("#text3").hide();
+        $("#img3").show()
+    });
 
-// });
+});
 
 
 $(document).ready(function(){
@@ -84,7 +84,7 @@ $("#text6").show();
 $(document).ready(function(){
     $("#text6").click(function(){
         $("#text6").hide();
-        $("#vid3").show()
+        $("#vid3").show();
     });
 
 });
