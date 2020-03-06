@@ -20,6 +20,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="rout.css">
+  <script src="time.js"></script>
 </head>
 
 <body>
@@ -44,6 +45,12 @@
     <div class="jumbotron">
       <h3 align="center">Workout Routines</h3>
       <p align="center">Below are some workout routines to get you started on your road to healthy living.</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      
+      <br>
+      <button onclick="move()">Start the time</button> 
     </div>
     <h2 align="center">Underweight Routines</h2>
     <div class="row">
