@@ -7,9 +7,11 @@
  Date of current version<strong>*: 05/03/2020*</strong>
 #### By:
 1. Joseph Nganga ; lead developer
-1. Moringa TM's ; Mentors
-1. Moringa Students ; Assistant designers
-## work hard play hard
+2. Victor Mburu
+3. Kevin Mathenge
+4. Nasra Ibrahim
+5. Benitah Kafrika
+
 
 <img src="./img/pullups.gif" width="" >
 
@@ -23,36 +25,18 @@
 * Create a Pull Request
 
 ## Known Bugs
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue here by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and/or gave undesired results), kindly open an issue here by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 ## User Story:
-* Choose the size of pizza I want e.g Small, Medium, Large
-* Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
+* Calculate my BMI.
+* Choose a workout and diet option depending on my BMI.
 * Choose the topping(s) I want on my pizza.
-* Place an order for my Pizza and see the total charge for it.
-* Have an option to order as many pizzas as I want.
-* Have an option to have the pizza delivered or not.  If delivered I want to be alerted how much the delivery charge will be.
-* If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
-* See a checkout button that when clicked shows the total amount charged for the orders. 
-
-## Behaviour Driven Development (BDD)
-
-| Behaviour      | Input        | Output       |
-| :------------- | :----------: | -----------: |
-| Determine the prices for each pizza size.  |  large |     |
-|   set value depending on the size of the pizza. | 500|   |
-| Determine the cost for the crust  |    200 |     |
-| The total cost of a pizza should constitute, the crust, topping(s) and size of the pizza|(700+200 transport)     ||
-| |     |On checkout, the application displays the orders’ summary together with the total amount charged. For example, if the customer has made more than one pizza order, on checkout the application displays a summary of all the orders he/she has made and the total amount to pay for all his/her orders.|
-
-
-<img src="./img/screen.png" width="" >
+* Access workout guides as per my BMI.
 
 ## Technologies Used
-<a href="https://www.w3schools.com/">HTML W3schools</a> 
+<a href="https://www.w3schools.com/">HTML</a> 
 
-<a href="https://css-tricks.com/">CSS Css trickes</a> 
+<a href="https://css-tricks.com/">CSS</a> 
 
 <a href="https://getbootstrap.com/">Bootstrap</a>
 
@@ -60,7 +44,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 <a href="https://www.w3schools.com/">jQuery</a>
 ## Support and contact details
-call me on
+Reach out to me via;
 
 <img src="https://bit.ly/2H4L6UZ" width="109" style="border-radius:50%;">:0798734442
 
