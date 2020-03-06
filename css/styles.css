@@ -1,0 +1,8 @@
+.body{
+    background-image: url("../img/fity.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: normal;
+    color: yellow;
+}
