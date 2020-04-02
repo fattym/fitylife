@@ -6,7 +6,7 @@
 
  Date of current version<strong>*: 05/03/2020*</strong>
 #### By:
-1. Joseph Nganga ; lead developer
+1. Joseph Nganga: Team Leader
 2. Victor Mburu
 3. Kevin Mathenge
 4. Nasra Ibrahim
